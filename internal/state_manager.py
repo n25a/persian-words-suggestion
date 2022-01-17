@@ -16,7 +16,7 @@ def main_state() -> str:
     }
 
     console.print(
-        "Select number: \n",
+        "🎱 Select number: \n",
         style="bold blue",
         justify="left",
         width=40,
@@ -62,7 +62,6 @@ def about_state() -> str:
     return "main"
 
 def start_state() -> str:
-    clear()
     states = {
         "1": "set_length",
         "2": "set_charector",
@@ -73,50 +72,50 @@ def start_state() -> str:
         "7": "exit",
     }
     console.print(
-        "Select number: \n",
+        "🎱 Select number: \n",
         style="bold blue",
         justify="left",
         width=40,
     )
     console.print(
         "1. set length",
-        style="bold green",
+        style="bold yellow",
         justify="left",
         width=40,
     )
     console.print(
         "2. set charector",
-        style="bold red",
+        style="bold yellow",
         justify="left",
         width=40,
     )
     console.print(
         "3. not set charector",
-        style="bold red",
+        style="bold yellow",
         justify="left",
         width=40,
     )
     console.print(
         "4. contains",
-        style="bold red",
+        style="bold yellow",
         justify="left",
         width=40,
     )
     console.print(
         "5. not contains",
-        style="bold magenta",
+        style="bold yellow",
         justify="left",
         width=40,
     )
     console.print(
         "6. suggest",
-        style="bold magenta",
+        style="bold green",
         justify="left",
         width=40,
     )
     console.print(
         "7. exit\n",
-        style="bold magenta",
+        style="bold red",
         justify="left",
         width=40,
     )
